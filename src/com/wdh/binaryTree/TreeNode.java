@@ -13,6 +13,9 @@ public class TreeNode {
     public TreeNode() {
     }
 
+    public void setVal(int val) {
+        this.val = val;
+    }
 
     public TreeNode(int val) {
         this.val = val;
