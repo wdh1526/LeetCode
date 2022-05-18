@@ -35,7 +35,6 @@ public class IsBST {
             return true;
         }
         double pre = -Double.MAX_VALUE;
-        int cur = root.getVal();;
         Stack<TreeNode> stack = new Stack<>();
         TreeNode tmp = root;
         while (tmp != null || !stack.empty()){
