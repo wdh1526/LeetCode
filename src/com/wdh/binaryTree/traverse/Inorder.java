@@ -1,8 +1,8 @@
-package com.wdh.traverse;
+package com.wdh.binaryTree.traverse;
 
 
 
-import com.wdh.TreeNode;
+import com.wdh.binaryTree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.wdh;
+package com.wdh.binaryTree;
 
 /**
  * @author wdh0713
