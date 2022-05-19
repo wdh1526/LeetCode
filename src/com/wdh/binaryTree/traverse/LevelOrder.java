@@ -18,19 +18,27 @@ public class LevelOrder {
         System.out.println(levelOrderTraversalByIterate(root));
     }
 
-    public static List<Integer> levelOrderTraversalByIterate(TreeNode root){
-        List<Integer> res = new ArrayList<>();
-        Queue<TreeNode> queue = new LinkedList<>();
+    public static List<List<Integer>> levelOrderTraversalByIterate(TreeNode root) {
+        if(root == null){
+            return new ArrayList();
+        }
+        List<List<Integer>> res = new ArrayList();
+        Queue<TreeNode> queue = new LinkedList();
         queue.add(root);
-        while (!queue.isEmpty()){
-            TreeNode cur = queue.remove();
-            res.add(cur.getVal());
-            if(cur.getLeft() != null){
-                queue.add(cur.getLeft());
+        while(!queue.isEmpty()){
+            List<Integer> currentLevel = new ArrayList();
+            int currentLevelSize = queue.size();
+            for(int i=0; i< currentLevelSize; i++){
+                root = queue.remove();
+                currentLevel.add(root.getVal());
+                if(root.getLeft() != null){
+                    queue.add(root.getLeft());
+                }
+                if(root.getRight() != null){
+                    queue.add(root.getRight());
+                }
             }
-            if(cur.getRight() != null){
-                queue.add(cur.getRight());
-            }
+            res.add(currentLevel);
         }
         return res;
     }
