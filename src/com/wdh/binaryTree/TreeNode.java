@@ -10,6 +10,14 @@ public class TreeNode {
     TreeNode left;
     TreeNode right;
 
+    public void setLeft(TreeNode left) {
+        this.left = left;
+    }
+
+    public void setRight(TreeNode right) {
+        this.right = right;
+    }
+
     public TreeNode() {
     }
 
