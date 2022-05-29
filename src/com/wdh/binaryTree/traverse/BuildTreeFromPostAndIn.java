@@ -1,6 +1,6 @@
 package com.wdh.binaryTree.traverse;
 
-import com.wdh.binaryTree.TreeNode;
+import com.wdh.TreeNode;
 
 /**
  * @author wdh0713

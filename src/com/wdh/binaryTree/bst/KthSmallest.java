@@ -1,9 +1,7 @@
 package com.wdh.binaryTree.bst;
 
-import com.wdh.binaryTree.TreeNode;
+import com.wdh.TreeNode;
 
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
 
 /**

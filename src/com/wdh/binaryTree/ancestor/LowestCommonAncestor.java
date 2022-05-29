@@ -1,6 +1,6 @@
 package com.wdh.binaryTree.ancestor;
 
-import com.wdh.binaryTree.TreeNode;
+import com.wdh.TreeNode;
 
 import java.util.HashMap;
 import java.util.HashSet;

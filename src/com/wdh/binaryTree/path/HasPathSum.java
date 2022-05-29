@@ -1,6 +1,6 @@
 package com.wdh.binaryTree.path;
 
-import com.wdh.binaryTree.TreeNode;
+import com.wdh.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

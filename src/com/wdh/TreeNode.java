@@ -1,4 +1,4 @@
-package com.wdh.binaryTree;
+package com.wdh;
 
 /**
  * @author wdh0713
@@ -9,6 +9,8 @@ public class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
+
+
 
     public void setLeft(TreeNode left) {
         this.left = left;
